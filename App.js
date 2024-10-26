@@ -9,12 +9,13 @@ export default class App extends React.Component {
     super();
 
     var config = {
-      apiKey: "AIzaSyAJyNdma79U9uZZR3aLgm_ylrBChPZdPjU",
-      authDomain: "reel-stackathon.firebaseapp.com",
-      databaseURL: "https://reel-stackathon.firebaseio.com",
-      projectId: "reel-stackathon",
-      storageBucket: "reel-stackathon.appspot.com",
-      messagingSenderId: "491423434758"
+       apiKey: "AIzaSyB2yQVFvzhG1otRNrr-q43o3GXTX01t3bw",
+        authDomain: "testrealestate-515d0.firebaseapp.com",
+        projectId: "testrealestate-515d0",
+        storageBucket: "testrealestate-515d0.appspot.com",
+        messagingSenderId: "423396324786",
+        appId: "1:423396324786:web:de9e306120af5fa01920ab",
+        measurementId: "G-KMLBTTNMNJ"
     };
     firebase.initializeApp(config);
   }
